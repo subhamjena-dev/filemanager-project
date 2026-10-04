@@ -1,0 +1,1 @@
+savedcmd_filelogger.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-7.0.0-30-generic/scripts/module.lds -o filelogger.ko filelogger.o filelogger.mod.o .module-common.o
